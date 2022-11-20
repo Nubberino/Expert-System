@@ -31,19 +31,19 @@
           <form method="post" action="<?= base_url('auth/registrasi') ?>">
             <h1>Buat Akun</h1>
             <div>
-              <input type="text" class="form-control" placeholder="Masukkan Nama Anda" id="nama" name="nama" />
+              <input style="border-radius:10px;" type="text" class="form-control" placeholder="Enter your name" id="nama" name="nama" />
               <small class="text-danger"><?= form_error('nama'); ?></small>
             </div>
             <div>
-              <input type="text" class="form-control" placeholder="Masukkan Username" id="username" name="username" />
+              <input style="border-radius:10px;" type="text" class="form-control" placeholder="Enter username" id="username" name="username" />
               <small class="text-danger"><?= form_error('username'); ?></small>
             </div>
             <div>
-              <input type="password" class="form-control" placeholder="Password" id="password" name="password" />
+              <input style="border-radius:10px;" type="password" class="form-control" placeholder="Password" id="password" name="password" />
               <small class="text-danger"><?= form_error('password'); ?></small>
             </div>
             <div>
-              <input type="password" class="form-control" placeholder="Ulangi Password" id="password" name="password2" />
+              <input style="border-radius:10px;" type="password" class="form-control" placeholder="Confirm password" id="password" name="password2" />
             </div>
             <div>
               <button type="submit" class="btn btn-primary submit">Daftar</button>
@@ -52,17 +52,17 @@
             <div class="clearfix"></div>
 
             <div class="separator">
-              <p class="change_link">Sudah punya akun?
+              <p class="change_link">Apakah sudah punya akun?
                 <a href="<?= base_url('auth'); ?>"> Silahkan Log in </a>
               </p>
 
               <div class="clearfix"></div>
               <br />
 
-              <div>
+              <!-- <div>
                 <h1><i class="fa fa-desktop"></i> ES Komputer</h1>
                 <p>©2019- Sistem Pakar Diagnosa Kerusakan Komputer Alfonso0087</p>
-              </div>
+              </div> -->
             </div>
           </form>
         </section>

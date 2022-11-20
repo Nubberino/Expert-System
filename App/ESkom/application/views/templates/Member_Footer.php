@@ -1,8 +1,5 @@
 <footer class="footer">
   <div class="container">
-    <div class="copyright">
-      &copy; 2019 Sistem Pakar Diagnosa Kerusakan Komputer By Alfonso0087
-    </div>
   </div>
 </footer>
 </div>

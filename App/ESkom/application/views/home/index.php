@@ -1,4 +1,4 @@
-	<nav class="navbar navbar-transparent navbar-top" role="navigation">
+	<nav style="background-color:#2146C7;" class="navbar navbar-transparent navbar-top" role="navigation">
 		<div class="container">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -10,12 +10,12 @@
 				</button>
 				<a href="#home">
 					<!-- Navbar Judul Pojok Kiri -->
-					<div class="logo-container">
-						<div class="logo">
-							<img src="<?= base_url('assets2'); ?>/img/ESC.png" alt="Expert System Computer">
+					<div	 class="logo-container">
+						<div style="background-color:white; padding:10px;" class="logo">
+							<img style="width:30px;" src="<?= base_url('assets2'); ?>/img/logoes.png" alt="Expert System Computer">
 						</div>
-						<div class="brand">
-							ES <br>Kel4
+						<div style="width:150px;" class="brand">
+							Kelompok 4 <br> Expert System
 						</div>
 					</div>
 					<!-- End of Navbar Judul Pojok Kiri -->
@@ -43,6 +43,7 @@
 							Login
 						</a>
 					</li>
+					
 				</ul>
 				<!-- End of Navbar Kanan -->
 			</div>
@@ -50,19 +51,18 @@
 		</div>
 	</nav>
 	<div class="wrapper">
-		<div class="parallax filter-gradient blue" data-color="blue">
+		<div style="background-image:url(https://merahputih.com/media/f0/86/1d/f0861dd0ce71c639c582dcdcfef4b95b.jpg);" class="parallax filter-gradient blue" data-color="blue">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-7  hidden-xs">
-						<div class="parallax-image">
+						<!-- <div class="parallax-image">
 							<img src="<?= base_url('assets2'); ?>/img/showcases/showcase-2/mac1.png" />
-						</div>
+						</div> -->
 					</div>
-					<div class="col-md-5">
+					<div style="background-color:black;" class="col-md">
 						<div class="description text-center">
-							<h2>Expert System Komputer</h2>
+							<h2 style="font-weight:bold;">Expert System Diagnosa Kerusakan Komputer</h2>
 							<br>
-							<h5>Aplikasi Untuk Diagnosa Kerusakan Laptop/Komputer </h5>
 						</div>
 					</div>
 				</div>
@@ -70,13 +70,10 @@
 		</div>
 
 		<section class="section section-no-padding page-scroll" id="about">
-			<div class="parallax filter-gradient blue" data-color="blue">
-				<div class="parallax-background">
-					<img class="parallax-background-image flipped" src="<?= base_url('assets2'); ?>/img/showcases/showcase-2/home_6.jpg">
-				</div>
+			<div style="background-image: url(https://rexus.id/wp-content/uploads/2018/03/pc-gaming.jpeg);" class="parallax filter-gradient blue" data-color="blue">
 				<div class="info">
-					<h1>About Us</h1>
-					<p>Sistem Pakar ini dibangun untuk membantu para pengguna atau teknisi computer/laptop dalam mendiagnosa kerusakan hardwarenya.Sistem ini memiliki 5 jenis kerusakan,berdasarkan 13 gejala yang sering dialami.
+					<h1 style="font-weight:bold;;">About Us</h1>
+					<p style="background-color:#3E6D9C;">Sistem Pakar ini dibangun dengan tujuan untuk membantu para pengguna dalam mendiagnosa kerusakan hardwarenya.
 					</p>
 				</div>
 			</div>

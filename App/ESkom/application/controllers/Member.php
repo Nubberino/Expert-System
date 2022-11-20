@@ -11,14 +11,14 @@ class Member extends CI_Controller
   }
   public function index()
   {
-    $data['judul'] = "Halaman Member";
+    $data['judul'] = "Halaman Diagnosa";
     $data['user'] = $this->db->get_where('tbl_user', [
       'username' => $this->session->userdata('username')
     ])->row_array();
 
     $this->load->view('templates/Member_Header', $data);
     $this->load->view('member/index', $data);
-    $this->load->view('templates/Member_Footer');
+    // $this->load->view('templates/Member_Footer');
   }
 
   
@@ -33,7 +33,7 @@ class Member extends CI_Controller
 
     $this->load->view('templates/Member_Header', $data);
     $this->load->view('member/diagnosa', $data);
-    $this->load->view('templates/Member_Footer');
+    // $this->load->view('templates/Member_Footer');
   }
 
   public function hasil_diagnosa()

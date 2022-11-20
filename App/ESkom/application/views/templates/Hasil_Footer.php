@@ -1,19 +1,21 @@
-<footer class="ftco-footer ftco-section">
+<!-- <footer class="ftco-footer ftco-section">
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
 
-        <p>
+        <p> -->
           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          Copyright &copy;<script>
+
+          <!-- Copyright &copy;<script>
             document.write(new Date().getFullYear());
-          </script> Sistem Pakar Diagnosa Kerusakan Komputer By Alfonso0087
+          </script> Sistem Pakar Diagnosa Kerusakan Komputer By Alfonso0087 -->
+          
           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        </p>
+        <!-- </p>
       </div>
     </div>
   </div>
-</footer>
+</footer> -->
 
 
 

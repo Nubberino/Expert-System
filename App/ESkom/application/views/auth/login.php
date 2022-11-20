@@ -28,18 +28,18 @@
     <div class="login_wrapper">
       <section class="login_content">
         <form method="POST" action="<?= base_url('auth'); ?>">
-          <h1>Login Admin</h1>
+          <h1 style="font-size:50px;">Login</h1>
           <?= $this->session->flashdata('pesan'); ?>
           <div>
-            <input type="text" class="form-control" placeholder="Username" name="username" />
+            <input style="width:350px; height:50px;" type="text" class="form-control" placeholder="Username" name="username" />
             <small class="text-danger"><?= form_error('username'); ?></small>
           </div>
           <div>
-            <input type="password" class="form-control" placeholder="Password" name="password" />
+            <input style="width:350px; height:50px;" type="password" class="form-control" placeholder="Password" name="password" />
             <small class="text-danger"><?= form_error('password'); ?></small>
           </div>
           <div>
-            <button type="submit" class="btn btn-primary submit">
+            <button type="submit" style="width:100px; height:50px" class="btn btn-primary submit">
               Log in
             </button>
 
@@ -48,8 +48,8 @@
           <div class="clearfix"></div>
 
           <div class="separator">
-            <a href="<?= base_url('auth/registrasi'); ?>">
-              Buat Akun
+            <a style="font-size:18px;" href="<?= base_url('auth/registrasi'); ?>">
+              Sign Up
             </a>
             </p>
 
@@ -58,9 +58,8 @@
 
             <div>
               <a href="<?= base_url('home'); ?>">
-                <h1><i class="fa fa-desktop"></i> ES Komputer</h1>
+                <!-- <h1><i class="fa fa-desktop"></i> ES Komputer</h1> -->
               </a>
-              <p>©2019- Sistem Pakar Diagnosa Kerusakan Komputer Alfonso0087</p>
             </div>
           </div>
         </form>

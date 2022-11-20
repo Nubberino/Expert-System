@@ -2,10 +2,9 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.html"><span>ESC</span>Computer</a>
-      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Menu
-      </button>
+						<div style="background-color:white; padding:10px; width:50px;" class="logo">
+							<img style="width:100px;" src="<?= base_url('assets2'); ?>/img/logoes.png" alt="Expert System Computer">
+						</div>
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav nav ml-auto">
@@ -23,7 +22,7 @@
         <div class="col-lg">
 
           <div class="page three">
-            <h2 class="heading">Hasil Diagnosa</h2>
+            <h2 style="color:black; font-weight:bold;">Hasil Diagnosa</h2>
             <div class="row progress-circle mb-5">
               <?php foreach ($diagnosa as $diag) : ?>
                 <?php
